@@ -2,8 +2,7 @@ const mongoose = require('mongoose');
 const Schema = mongoose.Schema;
 
 mongoose.Promise = global.Promise;
-mongoose.connect('mongodb+srv://useradmin:mongoatlas@cluster0-cmo8z.mongodb.net/test?retryWrites=true&w=majority', {
-    // useMongoClient: true,
+mongoose.connect(mongodb+srv://dbUser:mongomongo@cluster0-7v3tr.mongodb.net/test?retryWrites=true&w=majority, {
     useNewUrlParser: true
 });
 
